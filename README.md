@@ -10,7 +10,7 @@ How the system works:
 
 The Digital Notebook is a smart assistance. The system receives inputs from users, analyzes them once, stores the result, and allows you to quickly view insights anytime. It uses the following pillars to build a scalable system:
 * ingestion layer—It uses FastAPI (REST APIs) that allows users to send notes for processing. When a user writes a note and clicks Save, they are using the REST API.
-* Compute isolation gRPC—It runs compute-heavy tasks (word count, AI analysis, etc.) and calculates them. It runs seperately from the main app. It communicates about data using gRPC.
+* Compute isolation gRPC—It processes compute-heavy tasks (word count, AI analysis, etc.) and communicates about data using gRPC. It runs seperately from the main app. 
 * SQLite persistence (v1)—The database stores notes and its insights.
 * Smart Reader GraphQL—It allows client to fetch only required data(e.g., Just give me the title). It is optimized for frontend application.
-* LLM-ready architecture 
+
