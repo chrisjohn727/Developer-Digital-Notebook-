@@ -4,7 +4,7 @@ Built as a data-ingestion pipeline, the system separates heavy, resource-intensi
 
 This architecture reflects how modern production systems handle advanced workloads like AI/ML text processing, including Large Language Models (LLMs) and sentiment analysis. Instead of repeatedly performing expensive computations, the Digital Notebook follows a compute-first approach—it processes complex tasks once, stores the results, and enables fast, repeated access.
 
-In simple terms, the system follows a “compute once, read many” model. This makes it especially useful for applications that handle large volumes of text or require heavy processing, such as note-taking apps, AI-powered tools, content platforms, analytics dashboards, and messaging systems. By doing the hard work upfront and reusing the results, the system remains fast, scalable, and efficient even as data grows.
+In simple terms, the system follows a “compute once, read many” model. This makes it especially useful for applications that handle large volumes of text or require heavy processing, such as note-taking apps (e.g., Microsoft OneNote, Apple Notes), AI-powered tools, content platforms, analytics dashboards, and messaging systems. By doing the hard work upfront and reusing the results, the system remains fast, scalable, and efficient even as data grows.
 
 What you’ll be building using this project:
 * FastAPI ingestion layer 
