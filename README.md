@@ -1,5 +1,10 @@
-The Digital Notebook is a compute-first system designed to handle large workloads efficiently. It processes complex, resource-intensive tasks only once, stores the results, and enables fast, repeated data retrieval.
-Developers should treat this as a “compute once, read many” system—trigger heavy processing only when necessary and rely on GraphQL queries for fast, flexible access to precomputed results.
+The Developer Digital Notebook is a scalable, distributed backend system designed to process and store text data efficiently. When a user adds content, the system calculates key text metrics—such as word and character counts—by offloading the work to dedicated microservices before saving the results in a SQLite database.
+
+Built as a data-ingestion pipeline, the system separates heavy, resource-intensive processing from the main application. It uses gRPC for fast communication between services and provides a GraphQL interface that allows clients to fetch only the data they need, ensuring speed and efficiency.
+
+This architecture reflects how modern production systems handle advanced workloads like AI/ML text processing, including Large Language Models (LLMs) and sentiment analysis. Instead of repeatedly performing expensive computations, the Digital Notebook follows a compute-first approach—it processes complex tasks once, stores the results, and enables fast, repeated access.
+
+In simple terms, the system follows a “compute once, read many” model. This makes it especially useful for applications that handle large volumes of text or require heavy processing, such as note-taking apps, AI-powered tools, content platforms, analytics dashboards, and messaging systems. By doing the hard work upfront and reusing the results, the system remains fast, scalable, and efficient even as data grows.
 
 What you’ll be building using this project:
 * FastAPI ingestion layer 
