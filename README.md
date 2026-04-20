@@ -6,8 +6,9 @@ This architecture reflects how modern production systems handle advanced workloa
 
 In simple terms, the system follows a “compute once, read many” model. This makes it especially useful for applications that handle large volumes of text or require heavy processing, such as note-taking apps (e.g., Microsoft OneNote, Apple Notes), AI-powered tools, content platforms, analytics dashboards, and messaging systems. By doing the hard work upfront and reusing the results, the system remains fast, scalable, and efficient even as data grows.
 
-What you’ll be building using this project:
-* FastAPI ingestion layer 
+How the system works:
+The Digital Notebook is a smart assistance. The system receives inputs from users, analyzes them once, stores the result, and allows you to quickly view insights anytime. It uses the following pillars to build a scalable system:
+* ingestion layer - It uses FastAPI (REST APIs) to x`
 * gRPC compute isolation 
 * GraphQL optimized reads 
 * SQLite persistence (v1) 
