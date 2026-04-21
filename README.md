@@ -13,4 +13,4 @@ The Digital Notebook is a smart assistance. The system receives inputs from user
 * Compute isolation gRPC—It processes compute-heavy tasks (word count, AI analysis, etc.) and communicates about data using gRPC. It runs seperately from the main app. 
 * SQLite persistence (v1)—The database stores notes and their insights.
 * Smart Reader GraphQL—It allows client to fetch only required data(e.g., Just give me the title). It is optimized for frontend application.
-
+![architecture context flow diagram](image/context-flow)
