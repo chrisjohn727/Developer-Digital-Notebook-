@@ -8,7 +8,7 @@ In simple terms, the system follows a “compute once, read many” model. This 
 
 How the system works:
 
-![architecture context flow diagram](image/context-flowng<img width="1287" height="646" alt="Screenshot 2026-04-17 204359" src="https://github.com/user-attachments/assets/1becb235-d5d1-4877-88a1-220cdfe17bd6" />)
+![architecture context flow diagram](image/context-flow<img width="1287" height="646" alt="Screenshot 2026-04-17 204359" src="https://github.com/user-attachments/assets/1becb235-d5d1-4877-88a1-220cdfe17bd6" />)
 
 The Digital Notebook is a smart assistance. The system receives inputs from users, analyzes them once, stores the result, and allows you to quickly view insights anytime. It uses the following pillars to build a scalable system:
 * ingestion layer—It uses FastAPI (REST APIs) that allows users to send notes for processing. When a user writes a note and clicks Save, they are using the REST API.
