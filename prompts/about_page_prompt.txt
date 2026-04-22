@@ -1,1 +1,18 @@
+## About Me
+I am a technical writer specializing in API documentation and developer-focused content. I help teams turn complex systems into clear, usable documentation that improves developer experience and product adoption.
 
+## Skills
+- API documentation (REST, GraphQL, gRPC)
+- Developer documentation strategy and content design
+- Doc-as-code workflows and GitHub-based documentation
+- Content structuring for clarity and usability
+- Editing and improving technical content
+- Tools: Markdown, Git, Static Site Generators, FastAPI ecosystems
+
+## Experience
+- Led API documentation efforts that improved clarity and reduced developer onboarding time by structuring content around real usage scenarios.
+- Designed and maintained documentation workflows using doc-as-code practices, enabling scalable and version-controlled content management.
+- Worked closely with developers and product teams to document complex architectures, ensuring accuracy while keeping content easy to understand.
+
+## My Approach
+I write documentation that answers questions before users need to ask. I focus on keeping content clear, consistent, and easy to follow, while adjusting the level of detail based on the audience. My goal is to make documentation simple, useful, and easy to navigate.
