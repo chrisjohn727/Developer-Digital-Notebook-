@@ -19,28 +19,24 @@ tools:
   - "Markdown"
 
 experience:
-  - company: "TechCorp"
+  - company: "Cisco"
     role: "Senior Technical Writer"
-    years: "2021–present"
+    years: "2024–present"
     highlights:
       - "Built developer portal from scratch, reducing support tickets by 30%"
       - "Managed docs-as-code migration for 50+ legacy documents"
       - "Established style guide adopted across 3 product teams"
-  - company: "StartupCo"
-    role: "Technical Writer"
-    years: "2019–2021"
-    highlights:
-      - "Created first API reference documentation for REST APIs"
       - "Wrote onboarding guides adopted by 200+ users"
 
 approach: >
-  I believe good documentation is invisible — it answers questions before they're asked.
-  I prioritize clarity, consistency, and finding the right level of detail for each audience.
+  I write documentation that answers questions before users need to ask. 
+  I focus on keeping things clear, consistent, and easy to follow, while adjusting the level of detail based on who is reading. 
+  My goal is to make documentation useful, simple, and easy to navigate.
 
 contact:
-  email: "jane@example.com"
-  linkedin: "linkedin.com/in/janesmith"
-  github: "github.com/janesmith"
+  email: "chrisjohn727@gmail.com"
+  linkedin: "linkedin.com/in/christuraj-johnjoseph/"
+  github: "github.com/chrisjohn83"
 
 # Projects appear on individual project pages.
 # Add one entry per project you want to showcase.
