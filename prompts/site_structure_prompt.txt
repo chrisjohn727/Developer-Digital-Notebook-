@@ -1,0 +1,23 @@
+
+WRITER PROFILE:
+{PROFILE}
+
+Provide two things:
+
+1. A nav: block suitable for pasting directly into mkdocs.yml, using the pages that exist in the template:
+   - index.md (Home)
+   - about.md (About)
+   - projects/index.md (Projects overview)
+   - samples.md (Writing Samples)
+   - contact.md (Contact)
+   Add any additional project subpages that make sense given their work history.
+   Name project subpages using the format projects/project-name.md.
+
+2. A short rationale (3–5 sentences) explaining the structure choices and tips for the writer
+   on organizing their projects section.
+
+Requirements:
+- The nav: block must be valid YAML
+- Suggest project subpages that reflect the writer's actual project types
+- Keep the structure shallow (max 2 levels deep)
+- Output the nav: block first in a fenced yaml code block, then the rationale
