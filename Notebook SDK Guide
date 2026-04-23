@@ -1,1 +1,0 @@
-Welcome. The Notebook SDK Guide is the reference for integrating with the Notebook platform — an intelligent clinical-notes system that reads healthcare reports, extracts text metrics and analytical signals from them, and makes those signals available to your applications through three interchangeable APIs: REST, gRPC, and GraphQL.
