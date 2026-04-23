@@ -17,8 +17,8 @@ Digital Notebook API.
 - **Modern:** Built with latest web standards.
 
 ## Documentation Sections
-- [Introduction](#Notebook-SDK-Guide)
-- [Core concepts](#2What-the-Notebook-platform-does)
+- [Introduction](##Notebook-SDK-Guide)
+- [Core concepts](###What-the-Notebook-platform-does)
 - [Getting started](#3-getting-started)
 - [REST API](#4-rest-api)
 - [gRPC API](#5-grpc-api)
