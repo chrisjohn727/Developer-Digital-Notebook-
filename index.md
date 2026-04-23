@@ -1,7 +1,9 @@
 
 ---
 title: Welcome to My Project
+
 description: A high-level overview of Developer Digital Notebook.
+
 sidebar_position: 1
 ---
 
@@ -15,8 +17,8 @@ Digital Notebook API.
 - **Modern:** Built with latest web standards.
 
 ## Documentation Sections
-- [Introduction](#1-introduction)
-- [Core concepts](#2-core-concepts)
+- [Introduction](#Notebook-SDK-Guide)
+- [Core concepts](#2What-the-Notebook-platform-does)
 - [Getting started](#3-getting-started)
 - [REST API](#4-rest-api)
 - [gRPC API](#5-grpc-api)
