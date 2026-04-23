@@ -1,0 +1,4 @@
+
+You send a clinical note (a discharge summary, a radiology read, a progress note). 
+Notebook persists it, hands it off to a gRPC microservice for text analysis, stores the computed metrics next to the note in SQLite, and exposes both through a single API gateway. 
+Your applications then query that data through whichever protocol fits the integration — without ever re-running the expensive work.
